@@ -22,6 +22,6 @@ A simple Java-based book management system using Hibernate for database interact
 | **GET**   | `/books`        |  Retrieve all books   |
 | **GET**   | `/books/{id}`   |  Retrieve a book by ID |
 | **POST**  | `/books`        |  Add a new book        |
-| **PUT**   | `/books/{id}`   |  Update book details  |
+| **PUT**   | `/books/`   |  Update book details  |
 | **DELETE**| `/books/{id}`   |  Delete a book        |
   
