@@ -26,4 +26,15 @@ public class BookContoller {
     public Book getBookById(@PathVariable int id) {
         return bookService.getBookById(id);
     }
+
+    @PostMapping("/books")
+    public Book addBook(@RequestBody Book book) {
+        bookService.saveBook(book);
+        return book;
+    }
+    @PutMapping("/books")
+    public Book updateBook(@RequestBody Book book) {
+        bookService.saveBook(book);
+        return book;
+    }
 }
