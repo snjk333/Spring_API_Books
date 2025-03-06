@@ -9,7 +9,8 @@ A simple Java-based book management system using Hibernate for database interact
 -  Delete books  
 
 ##  Technologies  
-- **Java**  
+- **Java**
+- **Spring** (Core, Web) 
 - **Hibernate** (ORM)  
 - **HikariCP** (Connection Pooling)  
 - **JDBC** (Database Connectivity)  
